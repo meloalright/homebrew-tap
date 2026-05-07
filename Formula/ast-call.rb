@@ -1,26 +1,26 @@
 class AstCall < Formula
   desc "A location-first semantic caller analysis CLI"
   homepage "https://github.com/meloalright/ast-call"
-  version "0.0.1"
+  version "0.0.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/meloalright/ast-call/releases/download/v0.0.1/ast-call-aarch64-apple-darwin.tar.gz"
-      sha256 "e5d047607d0bae277ae182fa90b130eaf3c2da9ffb2237b0dff301489383e11d"
+      url "https://github.com/meloalright/ast-call/releases/download/v0.0.2/ast-call-aarch64-apple-darwin.tar.gz"
+      sha256 "274389d2d57fcb21364c40e7f40e88beb55c5e3f63ea8331c8acb544df2f2943"
     else
-      url "https://github.com/meloalright/ast-call/releases/download/v0.0.1/ast-call-x86_64-apple-darwin.tar.gz"
-      sha256 "6fc0e95b53f25b77bbf7b212002a46458fd25c07ea0968d4e883c39af52955ce"
+      url "https://github.com/meloalright/ast-call/releases/download/v0.0.2/ast-call-x86_64-apple-darwin.tar.gz"
+      sha256 "611353d331e111dfa4b49370a0616b1880154edbeeb03aae5a2763cc840f3b41"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/meloalright/ast-call/releases/download/v0.0.1/ast-call-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b9e134c929dd093df8f46a09b3a5afd4b0316427b75ffb7fd19b05340f18a134"
+      url "https://github.com/meloalright/ast-call/releases/download/v0.0.2/ast-call-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d48674735de195cc3399f161e32036ea49c26a83ad68c5ef993fba29c80566a9"
     else
-      url "https://github.com/meloalright/ast-call/releases/download/v0.0.1/ast-call-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4bc1f73864811cea99aa9b45ded931a5298abc0c1ef8326f89aa0a092cb7d063"
+      url "https://github.com/meloalright/ast-call/releases/download/v0.0.2/ast-call-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8e959d6611173346a6da8dce2e0beadb9f9e3a282859cbf1ebd847cb47229e55"
     end
   end
 
