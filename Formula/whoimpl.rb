@@ -1,5 +1,5 @@
-class WhoCall < Formula
-  desc "Semantic code intelligence — find callers of a symbol"
+class WhoImpl < Formula
+  desc "Semantic code intelligence — find implementations of traits and interfaces"
   homepage "https://github.com/meloalright/who-ast"
   version "0.0.3"
   license "MIT"
@@ -25,10 +25,10 @@ class WhoCall < Formula
   end
 
   def install
-    bin.install "who-call"
+    bin.install "whoimpl"
   end
 
   test do
-    assert_match "who-call", shell_output("#{bin}/who-call --version")
+    assert_match "whoimpl", shell_output("#{bin}/whoimpl --version")
   end
 end
