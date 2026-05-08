@@ -1,4 +1,4 @@
-class WhoImpl < Formula
+class Whoimpl < Formula
   desc "Semantic code intelligence — find implementations of traits and interfaces"
   homepage "https://github.com/meloalright/who-ast"
   version "0.0.4"

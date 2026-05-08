@@ -1,4 +1,4 @@
-class WhoCall < Formula
+class Whocall < Formula
   desc "Semantic code intelligence — find callers of a symbol"
   homepage "https://github.com/meloalright/who-ast"
   version "0.0.4"
