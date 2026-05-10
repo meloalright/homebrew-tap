@@ -1,26 +1,26 @@
 class Whoimpl < Formula
   desc "Semantic code intelligence — find implementations of traits and interfaces"
   homepage "https://github.com/meloalright/who-ast"
-  version "0.0.19"
+  version "0.0.20"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/meloalright/who-ast/releases/download/v0.0.19/who-aarch64-apple-darwin.tar.gz"
-      sha256 "e677edfe60a5891991d6566c8ef2181573cf17df598175a098db9cbf21d102a6"
+      url "https://github.com/meloalright/who-ast/releases/download/v0.0.20/who-aarch64-apple-darwin.tar.gz"
+      sha256 "64852aad44d2fb0272c993ebeef4260d6537eb203ddead0bc7bc6a2791bc3bdd"
     else
-      url "https://github.com/meloalright/who-ast/releases/download/v0.0.19/who-x86_64-apple-darwin.tar.gz"
-      sha256 "eee0ac0df9e6b77e62a633ca801327a5c2c0eeb03ddc1f17f11edda980f85fe6"
+      url "https://github.com/meloalright/who-ast/releases/download/v0.0.20/who-x86_64-apple-darwin.tar.gz"
+      sha256 "86ce2ed618bd2cbf75110d9fffc6f1f41419b384da8d4b8a26b7c3c8b493eb15"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/meloalright/who-ast/releases/download/v0.0.19/who-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9a5089ca826de9a83f6b31a2140895f8c98e1b39e256d44519c2a3523182f603"
+      url "https://github.com/meloalright/who-ast/releases/download/v0.0.20/who-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "920dff41c870760f5e63db4e5e50769c0b4ae4cdfc758c7c0344c7166c5229aa"
     else
-      url "https://github.com/meloalright/who-ast/releases/download/v0.0.19/who-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "37471c862c2cdf008616b319e5cca4e73f41ceaf367ed1176110026c9a9ad478"
+      url "https://github.com/meloalright/who-ast/releases/download/v0.0.20/who-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fc6ee38a0058915a8a10567277f1c3cd17f189190a4cce6cf8f89ab50e9ebc47"
     end
   end
 
