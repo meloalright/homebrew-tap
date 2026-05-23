@@ -1,26 +1,26 @@
 class CcEmail < Formula
   desc "A local-first email listener for coding agents"
   homepage "https://github.com/meloalright/cc-email"
-  version "0.0.4"
+  version "0.0.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/meloalright/cc-email/releases/download/v0.0.4/cc-email-aarch64-apple-darwin.tar.gz"
-      sha256 "a92bfe74350dc64650d258047146ace34814882484e41c10b160f5047512ae4b"
+      url "https://github.com/meloalright/cc-email/releases/download/v0.0.5/cc-email-aarch64-apple-darwin.tar.gz"
+      sha256 "f35e494239b3822e62deec326ee1d99ead06b9ce1ebfc2d6a1d4ed8bbdfb2fad"
     else
-      url "https://github.com/meloalright/cc-email/releases/download/v0.0.4/cc-email-x86_64-apple-darwin.tar.gz"
-      sha256 "8a93d0123fcffb0baf079866b4f5dd64627aa0e00132e7bc98cb8e384696a15c"
+      url "https://github.com/meloalright/cc-email/releases/download/v0.0.5/cc-email-x86_64-apple-darwin.tar.gz"
+      sha256 "226987eb86776b6b343ac7e71ef3fd4e59c289abf8b7d3e776f4b85df923dbcb"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/meloalright/cc-email/releases/download/v0.0.4/cc-email-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "278e9e2d8698c3188366166c6024d3a6484f7662a6f2c640fb24f275dfdef58e"
+      url "https://github.com/meloalright/cc-email/releases/download/v0.0.5/cc-email-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "50830887e61dfeb49b336da4d9fcb5bc158732269a5c4bd948e3c1f3301d8f9c"
     else
-      url "https://github.com/meloalright/cc-email/releases/download/v0.0.4/cc-email-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "79f5c1506ab0bd65681231d82147b5eab9ff35f2c4d78546160e36d6431705e2"
+      url "https://github.com/meloalright/cc-email/releases/download/v0.0.5/cc-email-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f611cb77a54d9b4a7a2d4fcd442b022c88b609eacf9dbec45459aa7fd51114c2"
     end
   end
 
