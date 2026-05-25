@@ -1,26 +1,26 @@
 class Whocall < Formula
   desc "Semantic code intelligence — find callers of a symbol"
   homepage "https://github.com/meloalright/whocall"
-  version "0.0.26"
+  version "0.0.27"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/meloalright/whocall/releases/download/v0.0.26/who-aarch64-apple-darwin.tar.gz"
-      sha256 "72cc6669db4cb2e876984b9a3871a2a3a4851747d6d13f19f2fbe2551920e3e3"
+      url "https://github.com/meloalright/whocall/releases/download/v0.0.27/who-aarch64-apple-darwin.tar.gz"
+      sha256 "3b12c5b2eb903d41d73a7d47b5a1aacb46a9b4ec7fd2cf1451999058e3cac154"
     else
-      url "https://github.com/meloalright/whocall/releases/download/v0.0.26/who-x86_64-apple-darwin.tar.gz"
-      sha256 "8d38780debca096fc2a50e4dbc91aff11e0a6363b271800b554816722b64f215"
+      url "https://github.com/meloalright/whocall/releases/download/v0.0.27/who-x86_64-apple-darwin.tar.gz"
+      sha256 "ba9f37a486fa69cb912ee6240dd661895baa709f9b91b1b6fd011fcf35a90cb2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/meloalright/whocall/releases/download/v0.0.26/who-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e77cc9701d78a71f2c5e5b2391b592383b95a0868c94b432e3ea5a572745fa27"
+      url "https://github.com/meloalright/whocall/releases/download/v0.0.27/who-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f9f551517016e34cddfc7832c13c5defeb570d6fa1eb432706fc7a45e39172a1"
     else
-      url "https://github.com/meloalright/whocall/releases/download/v0.0.26/who-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ef80313c6381f6e37298627909012ffde1b42bcc34ba03601e66904c24790452"
+      url "https://github.com/meloalright/whocall/releases/download/v0.0.27/who-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9d7e696563b8c1db92e3a07aabf41ef2e685743fed4bb8520361b1f6fd65c2a9"
     end
   end
 
