@@ -1,27 +1,27 @@
 class ShellAcp < Formula
   desc "Shell exposed as an Agent Client Protocol (ACP) agent"
   homepage "https://github.com/meloalright/shell-acp"
-  version "0.0.5"
+  version "0.0.6"
 
   on_macos do
     on_arm do
-      url "https://github.com/meloalright/shell-acp/releases/download/v0.0.5/shell-acp-0.0.5-aarch64-apple-darwin.tar.gz"
-      sha256 "db0a49c8d11b1d02de21bf1360a9ce252cbf2982990cb9c13fe935f6573aad56"
+      url "https://github.com/meloalright/shell-acp/releases/download/v0.0.6/shell-acp-0.0.6-aarch64-apple-darwin.tar.gz"
+      sha256 "ac122568564100555d714fda776265be9d8ff823ec25206e5ebe203856088e01"
     end
     on_intel do
-      url "https://github.com/meloalright/shell-acp/releases/download/v0.0.5/shell-acp-0.0.5-x86_64-apple-darwin.tar.gz"
-      sha256 "746608319c802149eb71a38a8223129bb0daf4f9992f699e7d2770b0ce41ee7f"
+      url "https://github.com/meloalright/shell-acp/releases/download/v0.0.6/shell-acp-0.0.6-x86_64-apple-darwin.tar.gz"
+      sha256 "2fe4b334e88d2e4da4330a2bf70d4ac80411298643cbe759015c05e052674870"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/meloalright/shell-acp/releases/download/v0.0.5/shell-acp-0.0.5-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e427c4de428da046e9609386990e57c4ee44cecc64222e085eebf139ab3a9041"
+      url "https://github.com/meloalright/shell-acp/releases/download/v0.0.6/shell-acp-0.0.6-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "53ba81d965bf043fd8be0eeefc1c8d801b442dcb6e4cf4c3644349b20e8165ae"
     end
     on_intel do
-      url "https://github.com/meloalright/shell-acp/releases/download/v0.0.5/shell-acp-0.0.5-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cab99310c6795007e4e07f458164997c9538cab5de2e2206fdb63b0605c4346a"
+      url "https://github.com/meloalright/shell-acp/releases/download/v0.0.6/shell-acp-0.0.6-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8bddf3da7edfba46fb7f4aa2461429231ec7c0082e86c9af05d9fd7c3ce7f750"
     end
   end
 
@@ -30,6 +30,6 @@ class ShellAcp < Formula
   end
 
   test do
-    assert_match "shell-acp started", shell_output("echo | #{bin}/shell-acp 2>&1")
+    assert_match version.to_s, shell_output("#{bin}/shell-acp --version")
   end
 end
