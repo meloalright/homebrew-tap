@@ -1,27 +1,27 @@
 class ShellAcp < Formula
   desc "Shell exposed as an Agent Client Protocol (ACP) agent"
   homepage "https://github.com/meloalright/shell-acp"
-  version "0.0.1"
+  version "0.0.2"
 
   on_macos do
     on_arm do
-      url "https://github.com/meloalright/shell-acp/releases/download/v0.0.1/shell-acp-0.0.1-aarch64-apple-darwin.tar.gz"
-      sha256 "6c739873043bf1bd0d1cb00440b91140ae9add3352f8d3786cb64dfcd0a590b8"
+      url "https://github.com/meloalright/shell-acp/releases/download/v0.0.2/shell-acp-0.0.2-aarch64-apple-darwin.tar.gz"
+      sha256 "0e8c28f6b67e72bf4a453d84f296fa4570eac375610cc70c75cb5b06d6bc9473"
     end
     on_intel do
-      url "https://github.com/meloalright/shell-acp/releases/download/v0.0.1/shell-acp-0.0.1-x86_64-apple-darwin.tar.gz"
-      sha256 "d53b461205a94c981dc3b234e14463986ece9522e16cdba0e7ce4765acf80861"
+      url "https://github.com/meloalright/shell-acp/releases/download/v0.0.2/shell-acp-0.0.2-x86_64-apple-darwin.tar.gz"
+      sha256 "e606138f986d372d57cff7533f7bdd03f2739252e862b52f62b5e2473c1a3fe7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/meloalright/shell-acp/releases/download/v0.0.1/shell-acp-0.0.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "30246b7d6af1b0c0652c0897ecdf273278f8c8cedebcdbfa3063c95a158e21cf"
+      url "https://github.com/meloalright/shell-acp/releases/download/v0.0.2/shell-acp-0.0.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1da7f56159d830ab2d3550f07789b063e34aac0589885ef818623c1787880238"
     end
     on_intel do
-      url "https://github.com/meloalright/shell-acp/releases/download/v0.0.1/shell-acp-0.0.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4abeb5da4d506880ca666a9c6cd86f5250c926c0a49f4aaf818f6abfbf096646"
+      url "https://github.com/meloalright/shell-acp/releases/download/v0.0.2/shell-acp-0.0.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "150827295aeda3e441cdd64e0c4129df6bf65b73fd34e173b178a9844de6833a"
     end
   end
 
