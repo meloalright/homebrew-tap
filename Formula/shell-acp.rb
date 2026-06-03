@@ -6,22 +6,22 @@ class ShellAcp < Formula
   on_macos do
     on_arm do
       url "https://github.com/meloalright/shell-acp/releases/download/v0.0.11/shell-acp-0.0.11-aarch64-apple-darwin.tar.gz"
-      sha256 "edd174bdba71c96daae87f0aad2fc72b07d092fd5919e32bf0e77177db60dc49"
+      sha256 "456e3515394d4fb6c2fa35a36869d093173b4e57a759f56b8e11b6323b99675f"
     end
     on_intel do
       url "https://github.com/meloalright/shell-acp/releases/download/v0.0.11/shell-acp-0.0.11-x86_64-apple-darwin.tar.gz"
-      sha256 "85018c96f255db98ce2ece6ac371f8f849060a688460ac3811384a7b19e313b5"
+      sha256 "3a2112f8646fafa62136be31b846247ca5951825af561048755973ec5c016a98"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/meloalright/shell-acp/releases/download/v0.0.11/shell-acp-0.0.11-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a295fde4df79cc2ac11d5afcabb67c1c57dba491e1aef3049ed6faa3dc525f61"
+      sha256 "787737b1e27a8b841e871745d67168c49ecd42f79e851bf0d75e5d1d1c8f7936"
     end
     on_intel do
       url "https://github.com/meloalright/shell-acp/releases/download/v0.0.11/shell-acp-0.0.11-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "554b44a538c7f5d04ea294d69a77e68436f22371e1cf769da4827531c4a3701f"
+      sha256 "2a802d10a8ed477424236c9ab76167b3d2c6640dc48fbf1620627496db9f68ca"
     end
   end
 
